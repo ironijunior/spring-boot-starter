@@ -1,4 +1,4 @@
-package br.com.riachuelo.gestaofinanceira.batch.relatorio3050.test.dao.mapper;
+package br.com.ironimedina.batch.test.dao.mapper;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
