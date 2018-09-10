@@ -7,7 +7,7 @@ import org.springframework.batch.core.JobParametersValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.types.JobExpectedParametersType;
+import br.com.ironimedina.batch.relatorio3050.types.JobExpectedParametersType;
 
 @Component
 public class ParametrosValidador implements JobParametersValidator {

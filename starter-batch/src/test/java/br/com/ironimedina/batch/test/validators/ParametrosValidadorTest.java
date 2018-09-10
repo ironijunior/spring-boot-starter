@@ -11,7 +11,7 @@ import org.springframework.batch.core.JobParameters;
 import br.com.ironimedina.batch.validators.DataReferenciaValidator;
 import br.com.ironimedina.batch.validators.DiretorioValidador;
 import br.com.ironimedina.batch.validators.ParametrosValidador;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.types.JobExpectedParametersType;
+import br.com.ironimedina.batch.relatorio3050.types.JobExpectedParametersType;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ParametrosValidadorTest {

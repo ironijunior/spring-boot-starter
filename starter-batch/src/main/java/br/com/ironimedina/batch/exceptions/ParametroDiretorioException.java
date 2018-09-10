@@ -1,8 +1,8 @@
 package br.com.ironimedina.batch.exceptions;
 
-import br.com.ironimedina.batch.exceptions.resolver.RiachueloRuntimeException;
+import br.com.ironimedina.batch.exceptions.resolver.BatchRuntimeException;
 
-public class ParametroDiretorioException extends RiachueloRuntimeException {
+public class ParametroDiretorioException extends BatchRuntimeException {
 	private static final int CODIGO_EXCECAO = 12;
 
 	/**

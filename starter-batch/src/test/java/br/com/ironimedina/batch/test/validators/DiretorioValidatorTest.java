@@ -13,7 +13,7 @@ import org.springframework.dao.EmptyResultDataAccessException;
 
 import br.com.ironimedina.batch.exceptions.ParametroDiretorioException;
 import br.com.ironimedina.batch.validators.DiretorioValidador;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.DiretorioBO;
+import br.com.ironimedina.batch.relatorio3050.bo.DiretorioBO;
 
 @RunWith(MockitoJUnitRunner.class)
 public class DiretorioValidatorTest {

@@ -1,6 +1,6 @@
 package br.com.ironimedina.batch.exceptions.resolver;
 
-public interface IRiachueloException {
+public interface IBatchException {
 
 	int getCode();
 	

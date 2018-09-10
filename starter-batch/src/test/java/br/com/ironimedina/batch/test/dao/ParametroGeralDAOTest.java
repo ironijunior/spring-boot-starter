@@ -10,10 +10,10 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.ParametroGeralDAO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.ParametrosGeraisDTO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.util.EnumQueries;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.util.LoadQueries;
+import br.com.ironimedina.batch.relatorio3050.dao.ParametroGeralDAO;
+import br.com.ironimedina.batch.relatorio3050.dto.ParametrosGeraisDTO;
+import br.com.ironimedina.batch.relatorio3050.util.EnumQueries;
+import br.com.ironimedina.batch.relatorio3050.util.LoadQueries;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ParametroGeralDAOTest {

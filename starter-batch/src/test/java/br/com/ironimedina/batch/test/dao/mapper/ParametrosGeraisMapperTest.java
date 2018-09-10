@@ -12,8 +12,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.mapper.ParametrosGeraisMapper;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.ParametrosGeraisDTO;
+import br.com.ironimedina.batch.relatorio3050.dao.mapper.ParametrosGeraisMapper;
+import br.com.ironimedina.batch.relatorio3050.dto.ParametrosGeraisDTO;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ParametrosGeraisMapperTest {

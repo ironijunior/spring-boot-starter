@@ -1,8 +1,8 @@
 package br.com.ironimedina.batch.exceptions;
 
-import br.com.ironimedina.batch.exceptions.resolver.RiachueloRuntimeException;
+import br.com.ironimedina.batch.exceptions.resolver.BatchRuntimeException;
 
-public class URLInvalidaException extends RiachueloRuntimeException {
+public class URLInvalidaException extends BatchRuntimeException {
 	private static final String URL_INFORMADA_INVALIDA = "A URL informada é inválida: ";
 
 	private static final int CODIGO_EXCECAO = 10;

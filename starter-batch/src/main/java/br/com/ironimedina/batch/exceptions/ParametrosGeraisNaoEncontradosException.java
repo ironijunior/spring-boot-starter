@@ -1,8 +1,8 @@
 package br.com.ironimedina.batch.exceptions;
 
-import br.com.ironimedina.batch.exceptions.resolver.RiachueloRuntimeException;
+import br.com.ironimedina.batch.exceptions.resolver.BatchRuntimeException;
 
-public class ParametrosGeraisNaoEncontradosException extends RiachueloRuntimeException {
+public class ParametrosGeraisNaoEncontradosException extends BatchRuntimeException {
 	private static final long serialVersionUID = 5753172932964692617L;
 
 	private static final int CODE = 11;

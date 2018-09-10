@@ -12,7 +12,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 import br.com.ironimedina.batch.exceptions.ParametroDataReferenciaInvalidaException;
 import br.com.ironimedina.batch.validators.DataReferenciaValidator;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.types.JobExpectedParametersType;
+import br.com.ironimedina.batch.relatorio3050.types.JobExpectedParametersType;
 
 @RunWith(MockitoJUnitRunner.class)
 public class DataReferenciaValidadorTest {

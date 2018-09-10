@@ -21,12 +21,12 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import br.com.riachuelo.api.mensagem.corporativo.v1.FeriadoResponse;
-import br.com.riachuelo.api.modelo.corporativo.v1.CorporativoWService;
-import br.com.riachuelo.api.modelo.corporativo.v1.Feriado;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.FeriadoDAO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.mapper.FeriadoMapper;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.factory.ServicoCorporativoFactory;
+import br.com.ironimedina.api.mensagem.corporativo.v1.FeriadoResponse;
+import br.com.ironimedina.api.modelo.corporativo.v1.CorporativoWService;
+import br.com.ironimedina.api.modelo.corporativo.v1.Feriado;
+import br.com.ironimedina.batch.relatorio3050.dao.FeriadoDAO;
+import br.com.ironimedina.batch.relatorio3050.dao.mapper.FeriadoMapper;
+import br.com.ironimedina.batch.relatorio3050.factory.ServicoCorporativoFactory;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FeriadoDAOTest {

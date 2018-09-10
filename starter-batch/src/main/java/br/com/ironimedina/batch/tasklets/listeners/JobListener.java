@@ -5,7 +5,7 @@ import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.TagProdutoRelatorioBO;
+import br.com.ironimedina.batch.relatorio3050.bo.TagProdutoRelatorioBO;
 
 @Component
 public class JobListener implements JobExecutionListener {

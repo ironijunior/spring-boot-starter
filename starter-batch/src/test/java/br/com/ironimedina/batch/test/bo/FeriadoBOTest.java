@@ -12,8 +12,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.FeriadoBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.FeriadoDAO;
+import br.com.ironimedina.batch.relatorio3050.bo.FeriadoBO;
+import br.com.ironimedina.batch.relatorio3050.dao.FeriadoDAO;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FeriadoBOTest {

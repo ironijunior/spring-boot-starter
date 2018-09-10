@@ -12,14 +12,14 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import br.com.ironimedina.batch.exceptions.resolver.RiachueloExceptionHandler;
+import br.com.ironimedina.batch.exceptions.resolver.BatchExceptionHandler;
 import br.com.ironimedina.batch.tasklets.GeracaoXmlTasklet;
 import br.com.ironimedina.batch.tasklets.listeners.JobListener;
 import br.com.ironimedina.batch.validators.ParametrosValidador;
 
 @EnableAutoConfiguration(exclude = { HibernateJpaAutoConfiguration.class })
 @EnableBatchProcessing
-@ComponentScan("br.com.riachuelo.gestaofinanceira")
+@ComponentScan("br.com.ironimedina.batch")
 public class Relatorio3050Configuration {
 
 	@Autowired
@@ -38,12 +38,12 @@ public class Relatorio3050Configuration {
 	private JobListener jobListener;
 	
 	@Autowired
-	private RiachueloExceptionHandler riachueloHandler;
+	private BatchExceptionHandler batchHandler;
 
 	@Bean
 	public Job job() {
 		return jobBuilderFactory
-				.get("JOB_ARQUIVO_3050")
+				.get("JOB_STARTER")
 				.validator(validadorParametros)
 				.incrementer(new RunIdIncrementer())
 				.start(geracaoXmlTask())
@@ -54,9 +54,9 @@ public class Relatorio3050Configuration {
 	@Bean
 	public Step geracaoXmlTask() {
 		return stepBuilderFactory
-				.get("TASKLET_GERAR_XML")
+				.get("TASKLET_XML")
 				.tasklet(geracaoXmlTasklet)
-				.exceptionHandler(riachueloHandler)
+				.exceptionHandler(batchHandler)
 				.build();
 	}
 }

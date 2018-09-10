@@ -8,7 +8,7 @@ import java.time.format.DateTimeParseException;
 import org.springframework.stereotype.Component;
 
 import br.com.ironimedina.batch.exceptions.ParametroDataReferenciaInvalidaException;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.types.JobExpectedParametersType;
+import br.com.ironimedina.batch.relatorio3050.types.JobExpectedParametersType;
 
 @Component
 public class DataReferenciaValidator {

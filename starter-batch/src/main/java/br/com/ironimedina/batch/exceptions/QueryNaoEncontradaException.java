@@ -1,8 +1,8 @@
 package br.com.ironimedina.batch.exceptions;
 
-import br.com.ironimedina.batch.exceptions.resolver.RiachueloRuntimeException;
+import br.com.ironimedina.batch.exceptions.resolver.BatchRuntimeException;
 
-public class QueryNaoEncontradaException extends RiachueloRuntimeException {
+public class QueryNaoEncontradaException extends BatchRuntimeException {
 	
 	private static final long serialVersionUID = -709120878955141853L;
 

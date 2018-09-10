@@ -1,21 +1,21 @@
 package br.com.ironimedina.batch.exceptions.resolver;
 
-public class RiachueloRuntimeException extends RuntimeException implements IRiachueloException {
+public class BatchRuntimeException extends RuntimeException implements IBatchException {
 
 	private static final long serialVersionUID = -996214797654483539L;
 
 	private int code;
 	
-	public RiachueloRuntimeException(int exitCode) {
+	public BatchRuntimeException(int exitCode) {
 		this.code = exitCode;
 	}
 	
-	public RiachueloRuntimeException(String message, int exitCode) {
+	public BatchRuntimeException(String message, int exitCode) {
 		super(message);
 		this.code = exitCode;
 	}
 	
-	public RiachueloRuntimeException(String message, Throwable cause, int exitCode) {
+	public BatchRuntimeException(String message, Throwable cause, int exitCode) {
 		super(message, cause);
 		this.code = exitCode;
 	}

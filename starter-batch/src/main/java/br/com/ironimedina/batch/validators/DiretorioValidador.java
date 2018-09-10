@@ -5,8 +5,8 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Component;
 
 import br.com.ironimedina.batch.exceptions.ParametroDiretorioException;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.DiretorioBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.types.JobExpectedParametersType;
+import br.com.ironimedina.batch.relatorio3050.bo.DiretorioBO;
+import br.com.ironimedina.batch.relatorio3050.types.JobExpectedParametersType;
 
 @Component
 public class DiretorioValidador {

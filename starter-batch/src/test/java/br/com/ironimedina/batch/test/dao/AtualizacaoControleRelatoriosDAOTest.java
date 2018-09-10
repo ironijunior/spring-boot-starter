@@ -16,7 +16,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementSetter;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.AtualizacaoControleRelatoriosDAO;
+import br.com.ironimedina.batch.relatorio3050.dao.AtualizacaoControleRelatoriosDAO;
 
 @RunWith(MockitoJUnitRunner.class)
 public class AtualizacaoControleRelatoriosDAOTest {

@@ -18,21 +18,21 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.DataBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.DiariaBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.EscritorXmlBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.FeriadoBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.bo.MensalBO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.AtributosDiariosDTO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.AtributosMensaisDTO;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagCrdLivre;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagDiario;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagMensal;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagPesFisica;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagPreDiario;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagPreMensal;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dto.estrutura.xml.TagReferencia;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.util.DateUtil;
+import br.com.ironimedina.batch.relatorio3050.bo.DataBO;
+import br.com.ironimedina.batch.relatorio3050.bo.DiariaBO;
+import br.com.ironimedina.batch.relatorio3050.bo.EscritorXmlBO;
+import br.com.ironimedina.batch.relatorio3050.bo.FeriadoBO;
+import br.com.ironimedina.batch.relatorio3050.bo.MensalBO;
+import br.com.ironimedina.batch.relatorio3050.dto.AtributosDiariosDTO;
+import br.com.ironimedina.batch.relatorio3050.dto.AtributosMensaisDTO;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagCrdLivre;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagDiario;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagMensal;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagPesFisica;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagPreDiario;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagPreMensal;
+import br.com.ironimedina.batch.relatorio3050.dto.estrutura.xml.TagReferencia;
+import br.com.ironimedina.batch.relatorio3050.util.DateUtil;
 
 @Component
 public class GeracaoXmlTasklet implements Tasklet {

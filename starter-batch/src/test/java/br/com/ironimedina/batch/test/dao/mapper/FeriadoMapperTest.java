@@ -16,8 +16,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import br.com.riachuelo.api.modelo.corporativo.v1.Feriado;
-import br.com.riachuelo.gestaofinanceira.batch.relatorio3050.dao.mapper.FeriadoMapper;
+import br.com.ironimedina.api.modelo.corporativo.v1.Feriado;
+import br.com.ironimedina.batch.relatorio3050.dao.mapper.FeriadoMapper;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FeriadoMapperTest {
